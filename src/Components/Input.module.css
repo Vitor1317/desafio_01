@@ -1,0 +1,37 @@
+.form {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    height: 3.5rem;
+    margin-top: calc(0px - 1.75rem);
+}
+
+.form input {
+    width: 85%;
+    line-height: 1.4;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+}
+
+.form button {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    border: 0;
+    outline: 0;
+}
+
+.form button:disabled {
+    opacity: 0.9;
+    cursor: not-allowed;
+}

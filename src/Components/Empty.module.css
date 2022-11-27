@@ -1,0 +1,27 @@
+.empty {
+    width: 100%;
+    height: 15rem;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray-300);
+
+    border-top: 3px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptycontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.emptycontent strong{
+    line-height: 1.4;
+}
+
+.emptycontent span{
+    line-height: 1.4;
+}
